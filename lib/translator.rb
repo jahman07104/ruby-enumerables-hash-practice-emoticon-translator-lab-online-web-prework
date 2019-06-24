@@ -6,9 +6,10 @@ end
 
 def get_japanese_emoticon
   require "yaml"
-  japanesse_emoticon= YAML.load_file
+  japanese_emoticon= YAML.load_file
 end
 
 def get_english_meaning
-  # code goes here
+  require "yaml"
+  english_meaning = YAML.load_file
 end
